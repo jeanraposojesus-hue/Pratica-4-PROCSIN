@@ -39,5 +39,3 @@ Análise e compressão da imagem `sosias.jpg` utilizando a DCT em blocos de $L \
 * A resolução da DFT depende diretamente do tamanho real da amostra; o *zero-padding* apenas interpola o espectro, não criando nova resolução.
 * A DCT geralmente apresenta melhor concentração de energia que a DFT para compressão de sinais reais.
 
----
-*Relatório de aula prática - Engenharia de Processamento de Sinais.*
