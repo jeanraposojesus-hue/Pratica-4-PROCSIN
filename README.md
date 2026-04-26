@@ -6,38 +6,38 @@
 
 ## 🎯 Objetivos da Prática
 
-* [cite_start]**DFT vs. DTFT:** Analisar a DFT como a versão discreta da DTFT, convertendo sequências finitas em componentes de amplitude e fase[cite: 4].
-* [cite_start]**Resolução Espectral:** Avaliar como o tamanho da transformada e o uso de *zero-padding* afetam a distinção de frequências próximas[cite: 8, 9].
-* [cite_start]**Compressão 1-D:** Comparar o desempenho da DFT e DCT na compressão de áudio[cite: 18, 19].
-* [cite_start]**Compressão 2-D:** Aplicar a DCT para compressão de imagens em blocos, simulando o padrão JPEG[cite: 24, 28].
+* **DFT vs. DTFT:** Analisar a DFT como a versão discreta da DTFT, convertendo sequências finitas em componentes de amplitude e fase.
+* **Resolução Espectral:** Avaliar como o tamanho da transformada e o uso de *zero-padding* afetam a distinção de frequências próximas.
+* **Compressão 1-D:** Comparar o desempenho da DFT e DCT na compressão de áudio.
+* **Compressão 2-D:** Aplicar a DCT para compressão de imagens em blocos, simulando o padrão JPEG.
 
 ---
 
 ## 🛠️ Atividades Desenvolvidas
 
 ### 1. Análise de Frequência
-[cite_start]Comparação entre a DTFT e a DFT para diferentes valores de $N \in \{4, 16, 64, 1024\}$[cite: 7], utilizando o sinal:
-[cite_start]$x[n]=\delta[n]-\delta[n-1]+\delta[n-2]-\delta[n-3]$ [cite: 6]
+Comparação entre a DTFT e a DFT para diferentes valores de $N \in \{4, 16, 64, 1024\}$, utilizando o sinal:
+$x[n]=\delta[n]-\delta[n-1]+\delta[n-2]-\delta[n-3]$.
 
 ### 2. Resolução e Zero-Padding
 Estudo do impacto da amostragem e do preenchimento com zeros no sinal:
-[cite_start]$x(t)=\sin(2\pi t)+\sin(2,2\pi t)$ com $f_{s}=10$ Hz [cite: 10, 11]
-* [cite_start]Foram analisados casos com 64 amostras, 128 amostras reais e variações com *zero-padding* de até 384 zeros[cite: 12, 13, 14, 15].
+$x(t)=\sin(2\pi t)+\sin(2,2\pi t)$ com $f_{s}=10$ Hz.
+* Foram analisados casos com 64 amostras, 128 amostras reais e variações com *zero-padding* de até 384 zeros.
 
 ### 3. Compressão de Áudio (Sinais 1-D)
-[cite_start]Compressão do arquivo `handel.wav` para fatores de retenção de energia de $99.5\%$, $99.0\%$, $90.0\%$, $75.0\%$ e $50.0\%$[cite: 20].
-* [cite_start]**Métricas:** Quantidade de coeficientes e Erro Quadrático Médio (MSE)[cite: 23].
+Compressão do arquivo `handel.wav` para fatores de retenção de energia de $99.5\%$, $99.0\%$, $90.0\%$, $75.0\%$ e $50.0\%$.
+* **Métricas:** Quantidade de coeficientes e Erro Quadrático Médio (MSE).
 
 ### 4. Compressão de Imagem (Sinais 2-D)
-[cite_start]Análise e compressão da imagem `sosias.jpg` utilizando a DCT em blocos de $L \times L$[cite: 24, 25, 28].
-* [cite_start]**Blocos:** $L=8$ e $L=64$[cite: 28].
-* [cite_start]**Fatores de Compressão:** $95\%$ e $50\%$[cite: 28].
+Análise e compressão da imagem `sosias.jpg` utilizando a DCT em blocos de $L \times L$.
+* **Blocos:** $L=8$ e $L=64$.
+* **Fatores de Compressão:** $95\%$ e $50\%$.
 
 ---
 
 ## 📊 Conclusões Sugeridas
-* [cite_start]A resolução da DFT depende diretamente do tamanho real da amostra; o *zero-padding* apenas interpola o espectro, não criando nova resolução[cite: 16].
-* [cite_start]A DCT geralmente apresenta melhor concentração de energia que a DFT para compressão de sinais reais[cite: 27].
+* A resolução da DFT depende diretamente do tamanho real da amostra; o *zero-padding* apenas interpola o espectro, não criando nova resolução.
+* A DCT geralmente apresenta melhor concentração de energia que a DFT para compressão de sinais reais.
 
 ---
 *Relatório de aula prática - Engenharia de Processamento de Sinais.*
