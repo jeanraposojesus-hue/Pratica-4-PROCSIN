@@ -1,6 +1,6 @@
 # Aula Prática 4: DFT e DCT 
 
-[cite_start]Este repositório contém o desenvolvimento da **Aula Prática 4** da disciplina de **Processamento de Sinais I**, ministrada pelo professor **Rafael Chaves**[cite: 1, 2]. [cite_start]O foco é a aplicação da Transformada Discreta de Fourier (DFT) e da Transformada de Cosseno Discreta (DCT) para análise e compressão de sinais[cite: 3].
+Este repositório contém o desenvolvimento da **Aula Prática 4** da disciplina de **Processamento de Sinais I**, ministrada pelo professor **Rafael Chaves**[cite: 1, 2]. [cite_start]O foco é a aplicação da Transformada Discreta de Fourier (DFT) e da Transformada de Cosseno Discreta (DCT) para análise e compressão de sinais[cite: 3].
 
 ---
 
